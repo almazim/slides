@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+.navbar-001 {
+  background-color: #c4cdd6;
+  height: 675px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+.navbar-001 .btn {
+  text-transform: uppercase;
+}
+.navbar-001 .btn-orange {
+  border-radius: 3px;
+  background-color: #ff891e;
+  color: #fff;
+  border: none;
+}
+.navbar-001 .start {
+  width: 249px;
+  height: 45px;
+  font-size: 16px;
+}
+.navbar-001 .slide {
+  display: none;
+}
+.navbar-001 .container {
+  max-width: 100%;
+}
+.navbar-001 .col-md-5 {
+  display: none;
+  position: absolute;
+  top: 36%;
+  right: 0;
+  left: 15%;
+  z-index: 1;
+  text-align: left;
+  margin: 0 auto;
+  max-width: 470px;
+  width: 100%;
+}
+.navbar-001 .col-md-5 h1 {
+  font-size: 35px;
+}
+.navbar-001 .col-md-5 p {
+  font-size: 22px;
+  line-height: 41.59px;
+}
+.navbar-001 .col-md-5 p:nth-child(3) {
+  display: none;
+}
+.navbar-001 .col-md-5 .btn {
+  width: 128px;
+  height: 38px;
+  font-size: 13px;
+}
+.navbar-001 .btn-outline-dark {
+  margin-left: 18px;
+}
+.navbar-001 .carousel-indicators {
+  width: 1140px;
+  margin: 20px auto;
+}
+.navbar-001 .carousel-indicators li {
+  flex: 1 1 auto;
+}
+.navbar-001 .carousel-indicators .active {
+  border: 1px solid rgba(0, 0, 0, 0.44);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.navbar-001 .carousel-indicators li p {
+  text-shadow: 1px 1px 1px rgba(2, 2, 2, 0.2);
+  color: #fff;
+  text-align: left;
+  align-items: center;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.35;
+}
+.navbar-001 .carousel-indicators li span {
+  font-weight: 400;
+  font-size: 11px;
+}
+.navbar-001 .carousel-indicators li img {
+  border-radius: 3px;
+  margin-right: 7px;
+  width: 50px;
+  height: 55px;
+}
+.navbar-001 .carousel-item {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 675px;
+}
+.navbar-001 .carousel-item img {
+  visibility: hidden;
+}
+@media (min-width: 320px) and (max-width: 767.98px) {
+  .navbar-001,
+  .navbar-001 .carousel-item {
+    height: 400px;
+  }
+  .navbar-001 .carousel-indicators {
+    width: 77px;
+    margin: 32px auto;
+    justify-content: space-between;
+  }
+  .navbar-001 .carousel-indicators li {
+    flex: 0 0 auto;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    margin: 0;
+    background: none;
+    border: 2px solid;
+  }
+  .navbar-001 .carousel-indicators .active {
+    background-color: #282828;
+  }
+  .navbar-001 .col-md-5 {
+    top: 30%;
+    left: 0;
+    text-align: center;
+  }
+  .navbar-001 .carousel-item {
+    width: 165%;
+    background-position: bottom;
+    margin-left: -35px;
+    opacity: 0.3;
+  }
+  .navbar-001 .col-md-5 h1 {
+    font-size: 25px;
+  }
+  .navbar-001 .col-md-5 p {
+    font-size: 18px;
+    line-height: 29.96px;
+  }
+  .navbar-001 .carousel-inner {
+    background: #fff;
+  }
+  .navbar-001 .carousel-indicators li:last-child,
+  .navbar-001 .carousel-control-next, 
+  .navbar-001 .carousel-control-prev,
+  .navbar-001 .carousel-indicators li img,
+  .navbar-001 .carousel-indicators li p,
+  .navbar-001 .col-md-5 p:nth-child(2),
+  .navbar-001 .col-md-5 .btn-outline-dark {
+    display: none;
+  }
+  .navbar-001 .col-md-5 p:nth-child(3) {
+    display: block;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-001 .carousel-indicators {
+    width: 100%;
+  }
+  .navbar-001 .carousel-indicators li {
+    padding: 0 !important;
+    margin-right: 5px;
+  }
+  .navbar-001 .carousel-indicators li p {
+    font-size: 7px;
+    line-height: 2;
+    padding-right: 11px;
+  }
+  .navbar-001 .carousel-indicators li span {
+    font-size: 9px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .navbar-001 .col-md-5 {
+    top: 33%;
+    left: 38%;
+  }
+  .navbar-001 .carousel-indicators {
+    width: 940px;
+    margin: 25px auto;
+  }
+  .navbar-001 .carousel-item {
+    width: 118%;
+  }
+  .navbar-001 .carousel-indicators li p {
+    font-size: 11px;
+    line-height: inherit;
+  }
+  .navbar-001 .carousel-indicators li span {
+    font-size: 9px;
+  }
+}
+@media (min-width: 1200px) {
+  .navbar-001 .carousel-indicators {
+    width: 1140px;
+    margin: 20px auto;
+  }
+}

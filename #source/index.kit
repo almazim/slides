@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Тестовый слайдер</title>
+  </head>
+  <body>
+    <div class="navbar-001">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <button type="button" onclick="slideShow()" id="btn" class="btn btn-orange start">Начать демонстрацию</button>
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+                            <img src="img/preview/slider_1pre.jpg" data-nekoanim="fadeIn" data-nekodelay="10">
+                            <p><span>Акция действует с 01.07.18</span><br>Этот текст добавлен для демонстрации на странице</p>
+                        </li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1">
+                            <img src="img/preview/slider_2pre.jpg" data-nekoanim="fadeIn" data-nekodelay="10">
+                            <p><span>Акция действует с 01.07.18</span><br>Этот текст добавлен для демонстрации на странице</p>
+                        </li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3">
+                            <img src="img/preview/slider_3pre.jpg" data-nekoanim="fadeIn" data-nekodelay="10">
+                            <p><span>Акция действует с 01.07.18</span><br>Этот текст добавлен для демонстрации на странице</p>
+                        </li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="4">
+                            <img src="img/preview/slider_4pre.jpg" data-nekoanim="fadeIn" data-nekodelay="10">
+                            <p><span>Акция действует с 01.07.18</span><br>Этот текст добавлен для демонстрации на странице</p>
+                        </li>
+                      </ol>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active" id="carousel-item1">
+                          <img src="img/slides/slider_1.jpg" data-nekoanim="fadeIn" data-nekodelay="10" id="img1">
+                        </div>
+                        <div class="carousel-item" id="carousel-item2">
+                          <img src="img/slides/slider_2.jpg" data-nekoanim="fadeIn" data-nekodelay="10" id="img2">
+                        </div>
+                        <div class="carousel-item" id="carousel-item3">
+                          <img src="img/slides/slider_3.jpg" data-nekoanim="fadeIn" data-nekodelay="10" id="img3">
+                        </div>
+                        <div class="carousel-item" id="carousel-item4">
+                          <img src="img/slides/slider_4.jpg" data-nekoanim="fadeIn" data-nekodelay="10" id="img4">
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+                    <div class="col-md-5" id="heads">
+                        <h1>Этот текст добавлен для демонстрации на странице</h1>
+                        <p>Акция действует с 01.07.18 по 31.07.18</p>
+                        <p>Тест на внимательность</p>
+                        <button type="button" class="btn btn-orange more">Подробнее</button>
+                        <button type="button" class="btn btn-outline-dark">Все акции</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> -->
+  </body>
+</html>
